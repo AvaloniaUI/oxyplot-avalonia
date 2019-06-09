@@ -80,7 +80,7 @@ namespace OxyPlot.Avalonia
         public CanvasRenderContext(Canvas canvas)
         {
             this.canvas = canvas;
-            UseStreamGeometry = false; // Temporarily disabled because of Avalonia bug
+            UseStreamGeometry = true;
             RendersToScreen = true;
             BalancedLineDrawingThicknessLimit = 3.5;
         }
